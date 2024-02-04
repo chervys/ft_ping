@@ -4,4 +4,4 @@ services:
     build: ./debian_inetutils_2.0
     container_name: debian_inetutils_2.0
     volumes:
-      - "./..:/ft_ping"
+      - "./:/ft_ping"
